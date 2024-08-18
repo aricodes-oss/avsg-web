@@ -169,3 +169,7 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+
+# Common potential binary names
+avsg
+avsg-web
