@@ -1,7 +1,10 @@
 import { defineConfig } from 'vite';
+import path from 'path';
+
+import handlebars from 'vite-plugin-handlebars';
 
 export default defineConfig({
-  root: 'src',
+  root: path.resolve(__dirname, 'src'),
   build: {
     outDir: '../../dist',
     emptyOutDir: true,
@@ -10,4 +13,9 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 8082,
   },
+  plugins: [
+    handlebars({
+      partialDirectory: path.resolve(__dirname, 'src', 'partials'),
+    }),
+  ],
 });
