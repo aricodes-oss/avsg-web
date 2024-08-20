@@ -5,7 +5,7 @@
 appname: "avsg"
 
 # Specify the command to run after builds done
-# run_cmd: "./run.sh"
+# run_cmd: "go test -v ./..."
 
 # Specify the directory where the compiled object files are stored
 # output: /bin/app
@@ -45,8 +45,8 @@ build_pkg: ""
 build_tags: ""
 
 # Commands that can be executed before build the app
-# prev_build_cmds:
-#   - swag init
+prev_build_cmds:
+  - go test -v ./...
 
 # Whether to prohibit automatic operation
 disable_run: false

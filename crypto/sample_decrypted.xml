@@ -1,0 +1,1636 @@
+<?xml version="1.0"?>
+<THSaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mScreenSize>4</mScreenSize>
+  <mPlayerName>Tom</mPlayerName>
+  <mDifficulty>NORMAL</mDifficulty>
+  <mRandomizerDifficulty>DEFAULT</mRandomizerDifficulty>
+  <mCurrentWeapon>DataDisruptor</mCurrentWeapon>
+  <mPreviousWeapon>Kilver</mPreviousWeapon>
+  <mCurrentTool>DroneGun</mCurrentTool>
+  <mSaveArea>Area3</mSaveArea>
+  <mSaveRoom>SaveRoom3</mSaveRoom>
+  <mSaveRoomPos>
+    <X>5520</X>
+    <Y>1632</Y>
+  </mSaveRoomPos>
+  <mTotalFrames>1321492</mTotalFrames>
+  <mEffectiveFrames>1312608.2047787197</mEffectiveFrames>
+  <mScreenCount>496</mScreenCount>
+  <mTotalScreenCount>982</mTotalScreenCount>
+  <mNumDeaths>6</mNumDeaths>
+  <mRedGooDestroyed>1659</mRedGooDestroyed>
+  <mBricksDestroyed>756</mBricksDestroyed>
+  <mIsSpeedRun>false</mIsSpeedRun>
+  <mIsRandomizer>false</mIsRandomizer>
+  <mItemRandom />
+  <mUseRealTimers>false</mUseRealTimers>
+  <mLastMapSubScreen>START</mLastMapSubScreen>
+  <mBaseSeed>21909487</mBaseSeed>
+  <mRandomizerSeed>0</mRandomizerSeed>
+  <mBiofluxVisions>false</mBiofluxVisions>
+  <mHallucinationAmount>0</mHallucinationAmount>
+  <mTranslatePrimordial>true</mTranslatePrimordial>
+  <mTranslateVykhya>false</mTranslateVykhya>
+  <mJustinBailey>false</mJustinBailey>
+  <mTraceBlues>false</mTraceBlues>
+  <mTraceBlack>false</mTraceBlack>
+  <mTraceYellow>false</mTraceYellow>
+  <mSecretWindow>false</mSecretWindow>
+  <mHasDrone>true</mHasDrone>
+  <mCheatsUsed>false</mCheatsUsed>
+  <QuickSelectWeapon>Voranj</QuickSelectWeapon>
+  <QuickSelectWeapon>DataDisruptor</QuickSelectWeapon>
+  <QuickSelectWeapon>Kilver</QuickSelectWeapon>
+  <QuickSelectWeapon>VerticalSpread</QuickSelectWeapon>
+  <QuickSelectWeapon>Nova</QuickSelectWeapon>
+  <QuickSelectWeapon>Reflect</QuickSelectWeapon>
+  <QuickSelectWeapon />
+  <QuickSelectWeapon />
+  <QuickSelectWeapon />
+  <QuickSelectWeapon />
+  <THItemRecord mName="DataDisruptor" mType="WEAPON" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="Nova" mType="WEAPON" mConsumable="false" mExcludedFromCount="false" mRequiredItem="DataDisruptor" />
+  <THItemRecord mName="Drill" mType="TOOL" mConsumable="false" mExcludedFromCount="false" mRequiredItem="Nova" />
+  <THItemRecord mName="PowerNode1" mType="POWER_NODE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="SizeNode1" mType="SIZE_NODE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="HealthNode1" mType="HEALTH_NODE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="Kilver" mType="WEAPON" mConsumable="false" mExcludedFromCount="false" mRequiredItem="Drill" />
+  <THItemRecord mName="AddressDisruptor1" mType="TOOL" mConsumable="false" mExcludedFromCount="false" mRequiredItem="Kilver" />
+  <THItemRecord mName="HealthNode2" mType="HEALTH_NODE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="Note24" mType="LORE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="PowerNode2" mType="POWER_NODE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="HighJump" mType="PERMANENT_UPGRADE" mConsumable="false" mExcludedFromCount="false" mRequiredItem="AddressDisruptor1" />
+  <THItemRecord mName="GlitchTeleport" mType="PERMANENT_UPGRADE" mConsumable="false" mExcludedFromCount="false" mRequiredItem="HighJump" />
+  <THItemRecord mName="HealthNode3" mType="HEALTH_NODE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="PowerNode3" mType="POWER_NODE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="HealthNodeFragment7" mType="HEALTH_NODE_FRAGMENT" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="TendrilsTop" mType="PERMANENT_UPGRADE" mConsumable="false" mExcludedFromCount="false" mRequiredItem="HighJump" />
+  <THItemRecord mName="DroneGun" mType="TOOL" mConsumable="false" mExcludedFromCount="false" mRequiredItem="GlitchTeleport" />
+  <THItemRecord mName="VerticalSpread" mType="WEAPON" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="AddressDisruptor2" mType="TOOL" mConsumable="false" mExcludedFromCount="false" mRequiredItem="Drone" />
+  <THItemRecord mName="HealthNodeFragment10" mType="HEALTH_NODE_FRAGMENT" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="Note20" mType="LORE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="Voranj" mType="WEAPON" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="PowerNodeFragment8" mType="POWER_NODE_FRAGMENT" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="Note19" mType="LORE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="PasswordTool" mType="PERMANENT_UPGRADE" mConsumable="false" mExcludedFromCount="false" mRequiredItem="DroneGun" />
+  <THItemRecord mName="Note28" mType="LORE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="RangeNode2" mType="RANGE_NODE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="SizeNode2" mType="SIZE_NODE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="Note10" mType="LORE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="SizeNode3" mType="SIZE_NODE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="Grapple" mType="TOOL" mConsumable="false" mExcludedFromCount="false" mRequiredItem="AddressDisruptor2" />
+  <THItemRecord mName="PowerNode4" mType="POWER_NODE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="HealthNodeFragment11" mType="HEALTH_NODE_FRAGMENT" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="HealthNode4" mType="HEALTH_NODE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="HealthNodeFragment8" mType="HEALTH_NODE_FRAGMENT" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="Reflect" mType="WEAPON" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="Note13" mType="LORE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="PowerNodeFragment14" mType="POWER_NODE_FRAGMENT" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="Note17" mType="LORE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="EnhancedLaunch" mType="PERMANENT_UPGRADE" mConsumable="false" mExcludedFromCount="false" mRequiredItem="Grapple" />
+  <THItemRecord mName="Note25" mType="LORE" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="HealthNodeFragment15" mType="HEALTH_NODE_FRAGMENT" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="PowerNodeFragment1" mType="POWER_NODE_FRAGMENT" mConsumable="false" mExcludedFromCount="false" />
+  <THItemRecord mName="HealthNodeFragment5" mType="HEALTH_NODE_FRAGMENT" mConsumable="false" mExcludedFromCount="false" />
+  <KeyPoint>DIALOGUE_IntroCutscene</KeyPoint>
+  <KeyPoint>DIALOGUE_IntroCutscene_COMPLETED</KeyPoint>
+  <KeyPoint>DIALOGUE_WakeUp</KeyPoint>
+  <KeyPoint>DIALOGUE_WakeUp_COMPLETED</KeyPoint>
+  <KeyPoint>DIALOGUE_WhatIsThisPlace</KeyPoint>
+  <KeyPoint>DIALOGUE_WhatIsThisPlace_COMPLETED</KeyPoint>
+  <KeyPoint>DIALOGUE_ObtainedDisruptor</KeyPoint>
+  <KeyPoint>DIALOGUE_ObtainedDisruptor_COMPLETED</KeyPoint>
+  <KeyPoint>FirstDeath</KeyPoint>
+  <KeyPoint>DIALOGUE_FirstDeathElsenovaShadowed</KeyPoint>
+  <KeyPoint>DIALOGUE_FirstDeathElsenovaShadowed_COMPLETED</KeyPoint>
+  <KeyPoint>DIALOGUE_SecurityWormMeet</KeyPoint>
+  <KeyPoint>DIALOGUE_SecurityWormMeet_COMPLETED</KeyPoint>
+  <KeyPoint>SecurityWorm</KeyPoint>
+  <KeyPoint>DIALOGUE_MeetElsenova</KeyPoint>
+  <KeyPoint>DIALOGUE_MeetElsenova_COMPLETED</KeyPoint>
+  <KeyPoint>DIALOGUE_SoldierBossMeet</KeyPoint>
+  <KeyPoint>DIALOGUE_SoldierBossMeet_COMPLETED</KeyPoint>
+  <KeyPoint>SoldierBoss</KeyPoint>
+  <KeyPoint>Area3ArterialHallucination</KeyPoint>
+  <KeyPoint>DIALOGUE_SlugBossMeet</KeyPoint>
+  <KeyPoint>DIALOGUE_SlugBossMeet_COMPLETED</KeyPoint>
+  <KeyPoint>SlugBoss</KeyPoint>
+  <KeyPoint>FilterRepaired</KeyPoint>
+  <KeyPoint>DIALOGUE_FilterRepaired</KeyPoint>
+  <KeyPoint>DIALOGUE_FilterRepaired_COMPLETED</KeyPoint>
+  <KeyPoint>DIALOGUE_GlitchTeleportAcquire</KeyPoint>
+  <KeyPoint>DIALOGUE_GlitchTeleportAcquire_COMPLETED</KeyPoint>
+  <KeyPoint>DIALOGUE_MeetVeruskaSleeping</KeyPoint>
+  <KeyPoint>DIALOGUE_MeetVeruskaSleeping_COMPLETED</KeyPoint>
+  <KeyPoint>DIALOGUE_TendrilsTopAcquire</KeyPoint>
+  <KeyPoint>DIALOGUE_TendrilsTopAcquire_COMPLETED</KeyPoint>
+  <KeyPoint>DIALOGUE_ScorpionBossMeet</KeyPoint>
+  <KeyPoint>DIALOGUE_ScorpionBossMeet_COMPLETED</KeyPoint>
+  <KeyPoint>ScorpionBoss</KeyPoint>
+  <KeyPoint>DIALOGUE_ScorpionBossDefeat</KeyPoint>
+  <KeyPoint>DIALOGUE_ScorpionBossDefeat_COMPLETED</KeyPoint>
+  <KeyPoint>DIALOGUE_MeetKatrahaska</KeyPoint>
+  <KeyPoint>DIALOGUE_MeetKatrahaska_COMPLETED</KeyPoint>
+  <KeyPoint>RepairDronesEnabled</KeyPoint>
+  <KeyPoint>DIALOGUE_RepairDronesEnabled</KeyPoint>
+  <KeyPoint>DIALOGUE_RepairDronesEnabled_COMPLETED</KeyPoint>
+  <KeyPoint>DIALOGUE_MeetVeruskaHealed</KeyPoint>
+  <KeyPoint>DIALOGUE_MeetVeruskaHealed_COMPLETED</KeyPoint>
+  <PasswordEntry>
+    <mPassword>REVEALSUDRAN</mPassword>
+    <mEnabled>true</mEnabled>
+  </PasswordEntry>
+  <PasswordEntry>
+    <mPassword />
+    <mEnabled>false</mEnabled>
+  </PasswordEntry>
+  <PasswordEntry>
+    <mPassword />
+    <mEnabled>false</mEnabled>
+  </PasswordEntry>
+  <PasswordEntry>
+    <mPassword />
+    <mEnabled>false</mEnabled>
+  </PasswordEntry>
+  <PasswordEntry>
+    <mPassword />
+    <mEnabled>false</mEnabled>
+  </PasswordEntry>
+  <AreaSaveData mX="0" mY="0">
+    <mAreaName>Area1</mAreaName>
+    <mSeed>507771185</mSeed>
+    <mScreenCount>104</mScreenCount>
+    <mItem>DataDisruptor</mItem>
+    <mItem>Nova</mItem>
+    <mItem>PowerNode1</mItem>
+    <mItem>Drill</mItem>
+    <mItem>HealthNode1</mItem>
+    <mItem>MultiDisruptor</mItem>
+    <mItem>HealthNodeFragment2</mItem>
+    <mItem>SizeNode1</mItem>
+    <mItem>PowerNodeFragment2</mItem>
+    <mItem>HealthNodeFragment13</mItem>
+    <mItem>PowerNodeFragment16</mItem>
+    <mItem>LightningGun</mItem>
+    <mItem>HealthNode9</mItem>
+    <mItem>Note2</mItem>
+    <mItem>FlameThrower</mItem>
+    <mItem>WallTrace</mItem>
+  </AreaSaveData>
+  <AreaSaveData mX="6720" mY="5168">
+    <mAreaName>Area2</mAreaName>
+    <mSeed>823044273</mSeed>
+    <mScreenCount>154</mScreenCount>
+    <mItem>Kilver</mItem>
+    <mItem>PowerNode2</mItem>
+    <mItem>HealthNode2</mItem>
+    <mItem>HealthNodeFragment1</mItem>
+    <mItem>HealthNodeFragment3</mItem>
+    <mItem>HealthNodeFragment4</mItem>
+    <mItem>SizeNode2</mItem>
+    <mItem>RangeNode1</mItem>
+    <mItem>AddressDisruptor1</mItem>
+    <mItem>DataGrenade</mItem>
+    <mItem>PowerNodeFragment6</mItem>
+    <mItem>PowerNodeFragment5</mItem>
+    <mItem>PowerNodeFragment4</mItem>
+    <mItem>PowerNodeFragment3</mItem>
+    <mItem>HealthNodeFragment6</mItem>
+    <mItem>InertialPulse</mItem>
+    <mItem>Note7</mItem>
+    <mItem>Note16</mItem>
+    <mItem>Note15</mItem>
+    <mItem>Note24</mItem>
+    <mItem>RangeNode4</mItem>
+    <mItem>Note28</mItem>
+    <mItem>Note14</mItem>
+    <mItem>PowerNodeFragment7</mItem>
+    <mItem>PowerNodeFragment9</mItem>
+  </AreaSaveData>
+  <AreaSaveData mX="12000" mY="5168">
+    <mAreaName>Area3</mAreaName>
+    <mSeed>1508781739</mSeed>
+    <mScreenCount>102</mScreenCount>
+    <mItem>TendrilsTop</mItem>
+    <mItem>HealthNode3</mItem>
+    <mItem>GlitchTeleport</mItem>
+    <mItem>HealthNodeFragment7</mItem>
+    <mItem>SizeNode3</mItem>
+    <mItem>RangeNode2</mItem>
+    <mItem>HealthNodeFragment14</mItem>
+    <mItem>PasswordTool</mItem>
+    <mItem>PowerNodeFragment8</mItem>
+    <mItem>Voranj</mItem>
+    <mItem>Note19</mItem>
+    <mItem>Note10</mItem>
+    <mItem>Note20</mItem>
+    <mItem>PowerNodeFragment1</mItem>
+    <mItem>HealthNodeFragment5</mItem>
+  </AreaSaveData>
+  <AreaSaveData mX="18720" mY="-1632">
+    <mAreaName>Area4</mAreaName>
+    <mSeed>2055860068</mSeed>
+    <mScreenCount>200</mScreenCount>
+    <mItem>HighJump</mItem>
+    <mItem>PowerNode3</mItem>
+    <mItem>Grapple</mItem>
+    <mItem>DroneGun</mItem>
+    <mItem>HealthNodeFragment8</mItem>
+    <mItem>HealthNodeFragment9</mItem>
+    <mItem>HealthNodeFragment10</mItem>
+    <mItem>HealthNode4</mItem>
+    <mItem>PowerNode4</mItem>
+    <mItem>HealthNodeFragment11</mItem>
+    <mItem>FireWall</mItem>
+    <mItem>HealthNodeFragment12</mItem>
+    <mItem>EnhancedLaunch</mItem>
+    <mItem>Reflect</mItem>
+    <mItem>AddressDisruptor2</mItem>
+    <mItem>Note17</mItem>
+    <mItem>Note13</mItem>
+    <mItem>Note12</mItem>
+    <mItem>VerticalSpread</mItem>
+    <mItem>PowerNodeFragment14</mItem>
+    <mItem>IonBeam</mItem>
+    <mItem>TetheredCharge</mItem>
+  </AreaSaveData>
+  <AreaSaveData mX="9120" mY="3808">
+    <mAreaName>Area5</mAreaName>
+    <mSeed>2063731573</mSeed>
+    <mScreenCount>74</mScreenCount>
+    <mItem>Note9</mItem>
+    <mItem>Note25</mItem>
+  </AreaSaveData>
+  <AreaSaveData mX="0" mY="0">
+    <mAreaName>Area6</mAreaName>
+    <mSeed>1066237828</mSeed>
+    <mScreenCount>0</mScreenCount>
+  </AreaSaveData>
+  <AreaSaveData mX="14880" mY="0">
+    <mAreaName>Area7</mAreaName>
+    <mSeed>389977512</mSeed>
+    <mScreenCount>119</mScreenCount>
+    <mItem>GlitchBomb</mItem>
+    <mItem>DroneTeleport</mItem>
+    <mItem>RangeNode3</mItem>
+    <mItem>DistortionField</mItem>
+    <mItem>HealthNode6</mItem>
+    <mItem>Shards</mItem>
+    <mItem>HealthNode7</mItem>
+    <mItem>TendrilsBottom</mItem>
+    <mItem>Note4</mItem>
+    <mItem>Note5</mItem>
+    <mItem>Note27</mItem>
+    <mItem>Note18</mItem>
+    <mItem>PowerNodeFragment17</mItem>
+    <mItem>PowerNode5</mItem>
+    <mItem>HealthNodeFragment19</mItem>
+    <mItem>HealthNodeFragment20</mItem>
+  </AreaSaveData>
+  <AreaSaveData mX="0" mY="0">
+    <mAreaName>Area8</mAreaName>
+    <mSeed>578398948</mSeed>
+    <mScreenCount>0</mScreenCount>
+  </AreaSaveData>
+  <AreaSaveData mX="0" mY="0">
+    <mAreaName>Area9</mAreaName>
+    <mSeed>1238058109</mSeed>
+    <mScreenCount>0</mScreenCount>
+  </AreaSaveData>
+  <SecretWorldSaveData>
+    <mAreaName>Area4</mAreaName>
+    <mSecretWorldName>Area4SecretWorld0</mSecretWorldName>
+    <mPrimaryItem>SizeNodeRandom1</mPrimaryItem>
+    <mSecondaryItem>HealthNodeFragmentRandom2</mSecondaryItem>
+  </SecretWorldSaveData>
+  <SecretWorldSaveData>
+    <mAreaName>Area2</mAreaName>
+    <mSecretWorldName>Area2SecretWorld0</mSecretWorldName>
+    <mPrimaryItem>RangeNodeRandom1</mPrimaryItem>
+    <mSecondaryItem>HealthNodeFragmentRandom1</mSecondaryItem>
+  </SecretWorldSaveData>
+  <SecretWorldSaveData>
+    <mAreaName>Area6</mAreaName>
+    <mSecretWorldName>Area6SecretWorld0</mSecretWorldName>
+    <mPrimaryItem>SizeNodeRandom2</mPrimaryItem>
+    <mSecondaryItem>HealthNodeFragmentRandom4</mSecondaryItem>
+  </SecretWorldSaveData>
+  <SecretWorldSaveData>
+    <mAreaName>Area5</mAreaName>
+    <mSecretWorldName>Area5SecretWorld0</mSecretWorldName>
+    <mPrimaryItem>RangeNodeRandom2</mPrimaryItem>
+    <mSecondaryItem>HealthNodeFragmentRandom3</mSecondaryItem>
+  </SecretWorldSaveData>
+  <SecretWorldSaveData>
+    <mAreaName>Area8</mAreaName>
+    <mSecretWorldName>Area8SecretWorld0</mSecretWorldName>
+    <mPrimaryItem>HeatSeeker</mPrimaryItem>
+    <mSecondaryItem>HealthNodeFragmentRandom5</mSecondaryItem>
+  </SecretWorldSaveData>
+  <AutoMap>
+    <mAreaName>Area1</mAreaName>
+    <mWidthScreens>19</mWidthScreens>
+    <mHeightScreens>19</mHeightScreens>
+    <mScreenCount>53</mScreenCount>
+    <mCSVData>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5,1,2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,5,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,6</mCSVData>
+    <Entrance mX="18" mY="18">
+      <mWall>Bottom</mWall>
+    </Entrance>
+    <Entrance mX="18" mY="16">
+      <mWall>Right</mWall>
+    </Entrance>
+    <Door mX="10" mY="11">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="10" mY="11">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="9" mY="11">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="11" mY="11">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="12" mY="11">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="13" mY="11">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="13" mY="11">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="13" mY="10">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="13" mY="7">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="13" mY="7">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="14" mY="7">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="16" mY="7">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="16" mY="6">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="16" mY="6">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="16" mY="5">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="16" mY="4">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="18" mY="7">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="18" mY="6">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="18" mY="6">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="18" mY="5">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="12" mY="7">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="14" mY="11">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="14" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="14" mY="10">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="15" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="15" mY="10">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="15" mY="9">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="15" mY="9">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="14" mY="9">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="16" mY="9">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="16" mY="9">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="17" mY="9">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="17" mY="9">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="18" mY="9">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="18" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="17" mY="10">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="16" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="14" mY="12">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="15" mY="12">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="15" mY="13">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="15" mY="13">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="16" mY="13">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="15" mY="16">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="16" mY="16">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="15" mY="17">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="15" mY="18">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="15" mY="18">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="14" mY="18">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="17" mY="18">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="18" mY="18">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="18" mY="18">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="18" mY="16">
+      <mWall>Right</mWall>
+    </Door>
+    <Room mX="10" mY="10" mWidth="1" mHeight="2" />
+    <Room mX="8" mY="11" mWidth="2" mHeight="1" />
+    <Room mX="11" mY="11" mWidth="2" mHeight="1" />
+    <Room mX="13" mY="6" mWidth="1" mHeight="6" />
+    <Room mX="14" mY="7" mWidth="5" mHeight="1" />
+    <Room mX="16" mY="6" mWidth="1" mHeight="1" />
+    <Room mX="16" mY="4" mWidth="1" mHeight="2" />
+    <Room mX="18" mY="6" mWidth="1" mHeight="1" />
+    <Room mX="18" mY="4" mWidth="1" mHeight="2" />
+    <Room mX="10" mY="7" mWidth="3" mHeight="1" />
+    <Room mX="14" mY="11" mWidth="1" mHeight="2" />
+    <Room mX="14" mY="10" mWidth="1" mHeight="1" />
+    <Room mX="15" mY="9" mWidth="1" mHeight="2" />
+    <Room mX="14" mY="8" mWidth="1" mHeight="2" />
+    <Room mX="16" mY="9" mWidth="1" mHeight="1" />
+    <Room mX="17" mY="9" mWidth="1" mHeight="1" />
+    <Room mX="18" mY="9" mWidth="1" mHeight="2" />
+    <Room mX="16" mY="10" mWidth="2" mHeight="1" />
+    <Room mX="15" mY="12" mWidth="1" mHeight="6" />
+    <Room mX="16" mY="13" mWidth="3" mHeight="1" />
+    <Room mX="16" mY="16" mWidth="3" mHeight="1" />
+    <Room mX="15" mY="18" mWidth="3" mHeight="1" />
+    <Room mX="13" mY="17" mWidth="2" mHeight="2" />
+    <Room mX="18" mY="18" mWidth="1" mHeight="1" />
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+  </AutoMap>
+  <AutoMap>
+    <mAreaName>Area2</mAreaName>
+    <mWidthScreens>25</mWidthScreens>
+    <mHeightScreens>16</mHeightScreens>
+    <mScreenCount>98</mScreenCount>
+    <mCSVData>0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,1,1,1,1,1,1,5,2,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,1,0,0,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,1,1,1,1,0,0,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,6,0,1,0,0,1,0,0,2,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,6,1,1,0,7,1,5,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,7,0,0,1,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,0,1,1,1,1,0,5,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</mCSVData>
+    <Entrance mX="4" mY="0">
+      <mWall>Top</mWall>
+    </Entrance>
+    <Entrance mX="24" mY="13">
+      <mWall>Right</mWall>
+    </Entrance>
+    <Door mX="4" mY="0">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="4" mY="1">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="3" mY="1">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="4" mY="3">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="5" mY="3">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="6" mY="3">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="7" mY="3">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="8" mY="3">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="9" mY="3">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="10" mY="3">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="9" mY="4">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="9" mY="5">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="8" mY="5">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="7" mY="5">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="6" mY="5">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="6" mY="7">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="6" mY="8">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="5" mY="7">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="5" mY="7">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="4" mY="7">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="4" mY="7">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="3" mY="7">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="7" mY="8">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="7" mY="8">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="9" mY="7">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="9" mY="7">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="8" mY="7">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="8" mY="8">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="10" mY="7">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="7" mY="10">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="8" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="8" mY="10">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="9" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="9" mY="10">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="11" mY="10">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="11" mY="9">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="12" mY="8">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="12" mY="7">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="12" mY="4">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="12" mY="3">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="12" mY="3">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="12" mY="3">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="11" mY="3">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="13" mY="3">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="14" mY="3">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="14" mY="4">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="14" mY="5">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="15" mY="5">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="15" mY="5">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="16" mY="5">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="15" mY="6">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="15" mY="8">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="15" mY="9">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="16" mY="9">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="17" mY="9">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="17" mY="10">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="18" mY="10">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="19" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="20" mY="10">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="21" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="21" mY="9">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="20" mY="9">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="22" mY="9">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="22" mY="10">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="23" mY="9">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="23" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="23" mY="12">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="24" mY="12">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="24" mY="13">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="15" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="15" mY="11">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="14" mY="11">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="12" mY="11">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="11" mY="11">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="9" mY="11">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="9" mY="11">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Room mX="4" mY="0" mWidth="1" mHeight="12" />
+    <Room mX="3" mY="0" mWidth="1" mHeight="2" />
+    <Room mX="5" mY="3" mWidth="3" mHeight="1" />
+    <Room mX="8" mY="3" mWidth="3" mHeight="1" />
+    <Room mX="9" mY="4" mWidth="1" mHeight="4" />
+    <Room mX="7" mY="5" mWidth="2" mHeight="1" />
+    <Room mX="6" mY="5" mWidth="1" mHeight="8" />
+    <Room mX="5" mY="7" mWidth="1" mHeight="1" />
+    <Room mX="0" mY="7" mWidth="4" mHeight="1" />
+    <Room mX="7" mY="8" mWidth="1" mHeight="3" />
+    <Room mX="8" mY="7" mWidth="1" mHeight="2" />
+    <Room mX="10" mY="6" mWidth="1" mHeight="2" />
+    <Room mX="8" mY="10" mWidth="1" mHeight="1" />
+    <Room mX="9" mY="10" mWidth="3" mHeight="1" />
+    <Room mX="11" mY="8" mWidth="3" mHeight="2" />
+    <Room mX="12" mY="4" mWidth="1" mHeight="4" />
+    <Room mX="12" mY="3" mWidth="1" mHeight="1" />
+    <Room mX="11" mY="2" mWidth="1" mHeight="2" />
+    <Room mX="13" mY="3" mWidth="2" mHeight="1" />
+    <Room mX="13" mY="4" mWidth="2" mHeight="3" />
+    <Room mX="15" mY="5" mWidth="2" mHeight="1" />
+    <Room mX="15" mY="6" mWidth="1" mHeight="3" />
+    <Room mX="15" mY="9" mWidth="2" mHeight="3" />
+    <Room mX="17" mY="9" mWidth="2" mHeight="2" />
+    <Room mX="19" mY="10" mWidth="2" mHeight="3" />
+    <Room mX="21" mY="9" mWidth="2" mHeight="2" />
+    <Room mX="20" mY="8" mWidth="1" mHeight="2" />
+    <Room mX="23" mY="8" mWidth="2" mHeight="2" />
+    <Room mX="23" mY="10" mWidth="1" mHeight="3" />
+    <Room mX="24" mY="12" mWidth="1" mHeight="2" />
+    <Room mX="12" mY="11" mWidth="3" mHeight="1" />
+    <Room mX="9" mY="11" mWidth="3" mHeight="1" />
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+  </AutoMap>
+  <AutoMap>
+    <mAreaName>Area2SecretWorld0</mAreaName>
+    <mWidthScreens>11</mWidthScreens>
+    <mHeightScreens>8</mHeightScreens>
+    <mScreenCount>0</mScreenCount>
+    <mCSVData>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</mCSVData>
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+  </AutoMap>
+  <AutoMap>
+    <mAreaName>Area3</mAreaName>
+    <mWidthScreens>14</mWidthScreens>
+    <mHeightScreens>16</mHeightScreens>
+    <mScreenCount>101</mScreenCount>
+    <mCSVData>0,0,0,6,6,5,0,0,3,3,1,1,0,0,0,0,0,6,6,5,1,2,3,3,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,6,1,1,0,1,1,0,1,0,1,1,0,0,1,0,1,1,0,1,1,0,1,0,1,1,0,5,1,0,1,1,1,1,1,0,1,0,1,1,1,5,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1,0,0,0,1,1,0,0,0,1,1,1,5,0,1,0,0,1,7,1,0,0,0,0,1,1,5,1,1,0,0,1,7,0,0,0,0,1,1,1,0,0,0,0,1,1,1,0,0,0,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</mCSVData>
+    <Entrance mX="0" mY="13">
+      <mWall>Left</mWall>
+    </Entrance>
+    <Entrance mX="13" mY="3">
+      <mWall>Right</mWall>
+    </Entrance>
+    <Entrance mX="3" mY="0">
+      <mWall>Top</mWall>
+    </Entrance>
+    <Door mX="0" mY="13">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="0" mY="13">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="1" mY="13">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="1" mY="12">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="2" mY="12">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="3" mY="11">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="4" mY="11">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="4" mY="11">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="5" mY="11">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="5" mY="11">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="6" mY="11">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="6" mY="8">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="6" mY="8">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="7" mY="8">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="9" mY="8">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="10" mY="8">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="10" mY="8">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="10" mY="6">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="10" mY="6">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="11" mY="6">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="11" mY="6">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="9" mY="6">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="12" mY="6">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="12" mY="3">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="12" mY="3">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="13" mY="3">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="13" mY="3">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="11" mY="3">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="9" mY="3">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="9" mY="3">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="8" mY="3">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="7" mY="3">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="6" mY="3">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="6" mY="3">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="6" mY="4">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="6" mY="1">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="6" mY="1">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="7" mY="1">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="7" mY="1">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="8" mY="1">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="9" mY="1">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="9" mY="0">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="10" mY="0">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="10" mY="1">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="11" mY="1">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="12" mY="1">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="5" mY="1">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="5" mY="1">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="4" mY="1">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="6" mY="5">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="11" mY="8">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="11" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="10" mY="10">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="10" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="9" mY="4">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="2" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="1" mY="10">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="1" mY="9">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="2" mY="9">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="5" mY="3">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="5" mY="3">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="4" mY="3">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="3" mY="3">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="2" mY="3">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="2" mY="3">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="1" mY="3">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="1" mY="4">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="0" mY="4">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="0" mY="5">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="1" mY="5">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="0" mY="6">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="1" mY="6">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="3" mY="6">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="4" mY="6">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="5" mY="8">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="3" mY="8">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="2" mY="8">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="2" mY="8">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="1" mY="8">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="9" mY="10">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="9" mY="11">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="9" mY="12">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="9" mY="12">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="8" mY="12">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="3" mY="0">
+      <mWall>Top</mWall>
+    </Door>
+    <Room mX="0" mY="13" mWidth="1" mHeight="1" />
+    <Room mX="1" mY="12" mWidth="1" mHeight="2" />
+    <Room mX="2" mY="10" mWidth="2" mHeight="3" />
+    <Room mX="4" mY="10" mWidth="1" mHeight="2" />
+    <Room mX="5" mY="11" mWidth="1" mHeight="1" />
+    <Room mX="6" mY="5" mWidth="1" mHeight="7" />
+    <Room mX="7" mY="8" mWidth="3" mHeight="1" />
+    <Room mX="10" mY="6" mWidth="1" mHeight="4" />
+    <Room mX="11" mY="5" mWidth="1" mHeight="2" />
+    <Room mX="8" mY="4" mWidth="2" mHeight="3" />
+    <Room mX="12" mY="3" mWidth="1" mHeight="4" />
+    <Room mX="13" mY="3" mWidth="1" mHeight="1" />
+    <Room mX="9" mY="3" mWidth="3" mHeight="1" />
+    <Room mX="7" mY="3" mWidth="2" mHeight="1" />
+    <Room mX="6" mY="1" mWidth="1" mHeight="4" />
+    <Room mX="7" mY="1" mWidth="1" mHeight="1" />
+    <Room mX="8" mY="0" mWidth="2" mHeight="2" />
+    <Room mX="10" mY="0" mWidth="2" mHeight="2" />
+    <Room mX="12" mY="1" mWidth="1" mHeight="1" />
+    <Room mX="5" mY="0" mWidth="1" mHeight="2" />
+    <Room mX="3" mY="0" mWidth="2" mHeight="2" />
+    <Room mX="11" mY="8" mWidth="1" mHeight="3" />
+    <Room mX="10" mY="10" mWidth="1" mHeight="2" />
+    <Room mX="1" mY="9" mWidth="1" mHeight="2" />
+    <Room mX="2" mY="9" mWidth="1" mHeight="1" />
+    <Room mX="5" mY="3" mWidth="1" mHeight="1" />
+    <Room mX="3" mY="3" mWidth="2" mHeight="3" />
+    <Room mX="2" mY="3" mWidth="1" mHeight="1" />
+    <Room mX="1" mY="3" mWidth="1" mHeight="2" />
+    <Room mX="0" mY="4" mWidth="1" mHeight="3" />
+    <Room mX="1" mY="5" mWidth="1" mHeight="1" />
+    <Room mX="1" mY="6" mWidth="3" mHeight="1" />
+    <Room mX="4" mY="6" mWidth="1" mHeight="1" />
+    <Room mX="3" mY="8" mWidth="3" mHeight="1" />
+    <Room mX="2" mY="8" mWidth="1" mHeight="1" />
+    <Room mX="0" mY="8" mWidth="2" mHeight="1" />
+    <Room mX="9" mY="10" mWidth="1" mHeight="2" />
+    <Room mX="9" mY="12" mWidth="2" mHeight="1" />
+    <Room mX="8" mY="12" mWidth="1" mHeight="1" />
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+  </AutoMap>
+  <AutoMap>
+    <mAreaName>Area4</mAreaName>
+    <mWidthScreens>17</mWidthScreens>
+    <mHeightScreens>28</mHeightScreens>
+    <mScreenCount>170</mScreenCount>
+    <mCSVData>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,5,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,5,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,0,0,0,0,1,1,1,1,1,0,1,1,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,1,1,0,1,1,1,1,1,0,0,0,0,1,1,10,10,6,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,3,7,0,0,0,0,0,0,1,1,1,1,1,5,0,2,3,3,7,0,0,0,0,0,0,1,1,1,1,1,5,5,2,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,2,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,2,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,6,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,6,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,6,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</mCSVData>
+    <Entrance mX="0" mY="27">
+      <mWall>Left</mWall>
+    </Entrance>
+    <Entrance mX="0" mY="21">
+      <mWall>Left</mWall>
+    </Entrance>
+    <Entrance mX="0" mY="18">
+      <mWall>Left</mWall>
+    </Entrance>
+    <Entrance mX="10" mY="2">
+      <mWall>Right</mWall>
+    </Entrance>
+    <Door mX="0" mY="27">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="0" mY="26">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="1" mY="26">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="0" mY="24">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="1" mY="24">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="0" mY="22">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="1" mY="22">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="0" mY="21">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="0" mY="21">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="1" mY="21">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="1" mY="21">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="2" mY="21">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="4" mY="21">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="4" mY="22">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="4" mY="23">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="5" mY="23">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="0" mY="18">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="0" mY="18">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="0" mY="17">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="3" mY="17">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="3" mY="16">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="3" mY="15">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="3" mY="14">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="5" mY="11">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="6" mY="11">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="6" mY="12">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="5" mY="12">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="5" mY="14">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="6" mY="14">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="4" mY="16">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="4" mY="15">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="5" mY="15">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="2" mY="22">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="2" mY="23">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="4" mY="17">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="4" mY="17">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="5" mY="17">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="5" mY="16">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="6" mY="16">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="7" mY="16">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="8" mY="16">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="8" mY="14">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="8" mY="13">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="7" mY="14">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="9" mY="13">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="10" mY="13">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="11" mY="13">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="11" mY="12">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="11" mY="11">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="11" mY="10">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="11" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="12" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="13" mY="10">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="14" mY="10">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="14" mY="10">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="14" mY="9">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="13" mY="4">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="12" mY="4">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="10" mY="10">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="10" mY="11">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="10" mY="11">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="10" mY="12">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="9" mY="11">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="9" mY="11">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="8" mY="11">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="5" mY="10">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="5" mY="9">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="8" mY="9">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="9" mY="9">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="9" mY="8">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="10" mY="8">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="10" mY="8">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="10" mY="7">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="10" mY="7">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="11" mY="7">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="11" mY="6">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="11" mY="5">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="8" mY="4">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="7" mY="4">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="9" mY="4">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="7" mY="3">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="7" mY="3">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="6" mY="3">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="10" mY="2">
+      <mWall>Right</mWall>
+    </Door>
+    <Room mX="0" mY="18" mWidth="1" mHeight="10" />
+    <Room mX="1" mY="25" mWidth="1" mHeight="2" />
+    <Room mX="1" mY="23" mWidth="2" mHeight="2" />
+    <Room mX="1" mY="22" mWidth="2" mHeight="1" />
+    <Room mX="1" mY="21" mWidth="1" mHeight="1" />
+    <Room mX="2" mY="21" mWidth="5" mHeight="1" />
+    <Room mX="4" mY="22" mWidth="1" mHeight="2" />
+    <Room mX="5" mY="23" mWidth="1" mHeight="2" />
+    <Room mX="0" mY="15" mWidth="4" mHeight="3" />
+    <Room mX="1" mY="10" mWidth="5" mHeight="5" />
+    <Room mX="6" mY="11" mWidth="3" mHeight="2" />
+    <Room mX="6" mY="13" mWidth="1" mHeight="2" />
+    <Room mX="4" mY="15" mWidth="1" mHeight="2" />
+    <Room mX="5" mY="15" mWidth="1" mHeight="1" />
+    <Room mX="4" mY="17" mWidth="1" mHeight="1" />
+    <Room mX="5" mY="16" mWidth="1" mHeight="2" />
+    <Room mX="6" mY="16" mWidth="2" mHeight="1" />
+    <Room mX="8" mY="13" mWidth="1" mHeight="4" />
+    <Room mX="7" mY="13" mWidth="1" mHeight="2" />
+    <Room mX="9" mY="12" mWidth="2" mHeight="2" />
+    <Room mX="11" mY="12" mWidth="1" mHeight="2" />
+    <Room mX="11" mY="10" mWidth="1" mHeight="2" />
+    <Room mX="12" mY="10" mWidth="2" mHeight="1" />
+    <Room mX="14" mY="10" mWidth="2" mHeight="1" />
+    <Room mX="13" mY="4" mWidth="4" mHeight="6" />
+    <Room mX="12" mY="3" mWidth="1" mHeight="2" />
+    <Room mX="10" mY="10" mWidth="1" mHeight="2" />
+    <Room mX="9" mY="11" mWidth="1" mHeight="1" />
+    <Room mX="4" mY="4" mWidth="5" mHeight="6" />
+    <Room mX="9" mY="8" mWidth="1" mHeight="2" />
+    <Room mX="10" mY="8" mWidth="1" mHeight="1" />
+    <Room mX="10" mY="7" mWidth="1" mHeight="1" />
+    <Room mX="11" mY="6" mWidth="1" mHeight="2" />
+    <Room mX="11" mY="5" mWidth="1" mHeight="1" />
+    <Room mX="9" mY="4" mWidth="2" mHeight="3" />
+    <Room mX="7" mY="1" mWidth="4" mHeight="3" />
+    <Room mX="6" mY="2" mWidth="1" mHeight="2" />
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+  </AutoMap>
+  <AutoMap>
+    <mAreaName>Area4SecretWorld0</mAreaName>
+    <mWidthScreens>12</mWidthScreens>
+    <mHeightScreens>9</mHeightScreens>
+    <mScreenCount>0</mScreenCount>
+    <mCSVData>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</mCSVData>
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+  </AutoMap>
+  <AutoMap>
+    <mAreaName>Area5</mAreaName>
+    <mWidthScreens>34</mWidthScreens>
+    <mHeightScreens>5</mHeightScreens>
+    <mScreenCount>71</mScreenCount>
+    <mCSVData>0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,6,5,0,0,0,0,0,0,0,0,0,6,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0</mCSVData>
+    <Entrance mX="33" mY="2">
+      <mWall>Right</mWall>
+    </Entrance>
+    <Entrance mX="23" mY="4">
+      <mWall>Bottom</mWall>
+    </Entrance>
+    <Entrance mX="0" mY="2">
+      <mWall>Left</mWall>
+    </Entrance>
+    <Entrance mX="9" mY="0">
+      <mWall>Top</mWall>
+    </Entrance>
+    <Door mX="33" mY="2">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="33" mY="2">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="32" mY="2">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="23" mY="4">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="23" mY="4">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="23" mY="3">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="23" mY="2">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="9" mY="3">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="1" mY="2">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="0" mY="2">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="0" mY="2">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="9" mY="2">
+      <mWall>Top</mWall>
+    </Door>
+    <Door mX="23" mY="1">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="23" mY="1">
+      <mWall>Right</mWall>
+    </Door>
+    <Door mX="24" mY="1">
+      <mWall>Left</mWall>
+    </Door>
+    <Door mX="9" mY="1">
+      <mWall>Bottom</mWall>
+    </Door>
+    <Door mX="9" mY="0">
+      <mWall>Top</mWall>
+    </Door>
+    <Room mX="33" mY="2" mWidth="1" mHeight="1" />
+    <Room mX="1" mY="2" mWidth="32" mHeight="2" />
+    <Room mX="23" mY="4" mWidth="1" mHeight="1" />
+    <Room mX="0" mY="2" mWidth="1" mHeight="1" />
+    <Room mX="23" mY="0" mWidth="1" mHeight="2" />
+    <Room mX="24" mY="0" mWidth="1" mHeight="2" />
+    <Room mX="9" mY="0" mWidth="1" mHeight="2" />
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+  </AutoMap>
+  <AutoMap>
+    <mAreaName>Area5SecretWorld0</mAreaName>
+    <mWidthScreens>10</mWidthScreens>
+    <mHeightScreens>8</mHeightScreens>
+    <mScreenCount>0</mScreenCount>
+    <mCSVData>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</mCSVData>
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+  </AutoMap>
+  <AutoMap>
+    <mAreaName>Area7</mAreaName>
+    <mWidthScreens>22</mWidthScreens>
+    <mHeightScreens>14</mHeightScreens>
+    <mScreenCount>3</mScreenCount>
+    <mCSVData>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6</mCSVData>
+    <Entrance mX="21" mY="13">
+      <mWall>Right</mWall>
+    </Entrance>
+    <Door mX="21" mY="13">
+      <mWall>Right</mWall>
+    </Door>
+    <Room mX="18" mY="11" mWidth="4" mHeight="3" />
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+    <Reminder>
+      <X>-1</X>
+      <Y>-1</Y>
+    </Reminder>
+  </AutoMap>
+  <SpeedrunCheckpoint>
+    <mName>Xedur</mName>
+    <mFrames>101039</mFrames>
+  </SpeedrunCheckpoint>
+  <SpeedrunCheckpoint>
+    <mName>Telal</mName>
+    <mFrames>240921</mFrames>
+  </SpeedrunCheckpoint>
+  <SpeedrunCheckpoint>
+    <mName>Uruku</mName>
+    <mFrames>352846</mFrames>
+  </SpeedrunCheckpoint>
+  <SpeedrunCheckpoint>
+    <mName>Gir-Tab</mName>
+    <mFrames>987984</mFrames>
+  </SpeedrunCheckpoint>
+  <CreatureGlitched>SpungusSpore</CreatureGlitched>
+  <CreatureGlitched>Snailborg_Meta</CreatureGlitched>
+  <CreatureGlitched>Fungine</CreatureGlitched>
+  <CreatureGlitched>Rugg</CreatureGlitched>
+  <CreatureGlitched>Hoverling</CreatureGlitched>
+  <CreatureGlitched>Scorpiant</CreatureGlitched>
+  <CreatureGlitched>Pliaa</CreatureGlitched>
+  <CreatureGlitched>Seamk</CreatureGlitched>
+  <CreatureGlitched>TrapClaw_Gamma</CreatureGlitched>
+  <CreatureGlitched>SmallMogra</CreatureGlitched>
+  <CreatureGlitched>Spidler</CreatureGlitched>
+  <CreatureGlitched>Mogra</CreatureGlitched>
+  <CreatureGlitched>TubePuff</CreatureGlitched>
+  <CreatureGlitched>Glugg</CreatureGlitched>
+  <CreatureGlitched>BlurstSpawn</CreatureGlitched>
+  <CreatureGlitched>Snailborg</CreatureGlitched>
+  <CreatureGlitched>Blurst</CreatureGlitched>
+  <mWarpRoomPos>
+    <X>5040</X>
+    <Y>3088</Y>
+  </mWarpRoomPos>
+</THSaveData>
