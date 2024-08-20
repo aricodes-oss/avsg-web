@@ -10,10 +10,14 @@ import (
 
 func NewRouter() *gin.Engine {
 	router := gin.Default()
-	// api := router.Group("api") // Prefixing all of our URLs to make routing easier in dev
+
+	// 8 MiB file upload should be more than enough for an AV1 save file
+	router.MaxMultipartMemory = 8 << 20
+	api := router.Group("api") // Prefixing all of our URLs to make routing easier in dev
+	api.POST("/encrypt", Encrypt)
+	api.POST("/decrypt", Decrypt)
 
 	mountFrontend(router)
-
 	return router
 }
 
