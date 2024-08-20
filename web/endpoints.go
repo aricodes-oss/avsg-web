@@ -1,55 +1,48 @@
 package web
 
 import (
+	"fmt"
 	"io"
 	"net/http"
+	"strings"
 
 	"github.com/gin-gonic/gin"
 
 	"avsg/crypto"
 )
 
-func Encrypt(c *gin.Context) {
-	// Retrieve the uploaded file
-	file, err := c.FormFile("file")
-	if err != nil || file == nil {
-		c.JSON(http.StatusBadRequest, gin.H{"error": err})
-		// c.Redirect(http.StatusTemporaryRedirect, "/error") // TODO: Make error page
-		return
+var (
+	Encrypt = makeEndpoint(crypto.Encrypt, ".xml", ".sav")
+	Decrypt = makeEndpoint(crypto.Decrypt, ".sav", ".xml")
+)
+
+func makeEndpoint(cryptFunc func([]byte) ([]byte, error), oldExt, newExt string) gin.HandlerFunc {
+	return func(c *gin.Context) {
+		// Retrieve the uploaded file
+		file, err := c.FormFile("file")
+		if err != nil || file == nil {
+			c.JSON(http.StatusBadRequest, gin.H{"error": err, "file": file})
+			return
+		}
+
+		// Get a handle to it, read it into memory
+		handle, _ := file.Open()
+		defer handle.Close()
+		contents, _ := io.ReadAll(handle)
+
+		transformed, err := cryptFunc(contents)
+		if err != nil {
+			c.JSON(http.StatusBadRequest, gin.H{"error": err})
+			return
+		}
+
+		// Respond directly with the altered save file
+		c.Header("Content-Disposition", fmt.Sprintf(`attachment; filename="%s"`, swapExt(file.Filename, oldExt, newExt)))
+		c.Data(200, "application/octet-stream", transformed)
 	}
-
-	// Get a handle to it, read it into memory
-	handle, _ := file.Open()
-	defer handle.Close()
-	contents, _ := io.ReadAll(handle)
-
-	encrypted, err := crypto.Encrypt(contents)
-	if err != nil {
-		c.Redirect(http.StatusFound, "/error")
-	}
-
-	// Respond directly with the encrypted save file
-	c.Data(200, "application/octet-stream", encrypted)
 }
 
-func Decrypt(c *gin.Context) {
-	// Retrieve the uploaded file
-	file, err := c.FormFile("file")
-	if err != nil || file == nil {
-		c.Redirect(http.StatusFound, "/error") // TODO: Make error page
-		return
-	}
-
-	// Get a handle to it, read it into memory
-	handle, _ := file.Open()
-	defer handle.Close()
-	contents, _ := io.ReadAll(handle)
-
-	decrypted, err := crypto.Decrypt(contents)
-	if err != nil {
-		c.Redirect(http.StatusTemporaryRedirect, "/error")
-	}
-
-	// Respond directly with the decrypted save file
-	c.Data(200, "application/octet-stream", decrypted)
+func swapExt(str, old, new string) string {
+	name, _ := strings.CutSuffix(str, old)
+	return name + new
 }

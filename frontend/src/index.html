@@ -10,5 +10,18 @@
 
   <body data-bs-theme="dark">
     {{> nav}}
+
+    <form action="/api/decrypt" method="post" enctype="multipart/form-data">
+      <div class="mb-3">
+        <label for="file" class="form-label">Save file</label>
+        <input class="form-control" name="file" type="file" value="" id="file" required />
+      </div>
+
+      <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Decrypt</button>
+      </div>
+      <div class="mb-3">
+        <button type="submit" class="btn btn-primary" formaction="/api/encrypt">Encrypt</button>
+      </div>
   </body>
 </html>
