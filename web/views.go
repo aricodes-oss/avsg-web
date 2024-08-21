@@ -12,11 +12,11 @@ import (
 )
 
 var (
-	Encrypt = makeEndpoint(crypto.Encrypt, ".xml", ".sav")
-	Decrypt = makeEndpoint(crypto.Decrypt, ".sav", ".xml")
+	Encrypt = makeView(crypto.Encrypt, ".xml", ".sav")
+	Decrypt = makeView(crypto.Decrypt, ".sav", ".xml")
 )
 
-func makeEndpoint(cryptFunc func([]byte) ([]byte, error), oldExt, newExt string) gin.HandlerFunc {
+func makeView(cryptFunc func([]byte) ([]byte, error), oldExt, newExt string) gin.HandlerFunc {
 	return func(c *gin.Context) {
 		// Retrieve the uploaded file
 		file, err := c.FormFile("file")

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en" data-bs-theme="dark">
   <head>
-    <title>Axiom Verge: Save Game Utils</title>
+    <title>Axiom Verge Utilities</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/favicon.png" />
 
@@ -11,17 +11,32 @@
   <body data-bs-theme="dark">
     {{> nav}}
 
-    <form action="/api/decrypt" method="post" enctype="multipart/form-data">
-      <div class="mb-3">
-        <label for="file" class="form-label">Save file</label>
-        <input class="form-control" name="file" type="file" value="" id="file" required />
-      </div>
+    <main>
+      <div class="container">
+        <div class="mx-auto px-5 py-5 w-50 min-vw-75">
+          <h2 class="my-4">Savefile Encryption</h2>
+          <form action="/api/decrypt" method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+              <label for="file" class="form-label fs-4">Your save</label>
+              <input
+                class="form-control form-control-lg"
+                name="file"
+                type="file"
+                value=""
+                id="file"
+                required
+              />
+            </div>
 
-      <div class="mb-3">
-        <button type="submit" class="btn btn-primary">Decrypt</button>
+            <div class="d-flex flex-row justify-content-center my-2">
+              <button type="submit" class="btn btn-lg btn-secondary mx-2" formaction="/api/encrypt">
+                Encrypt
+              </button>
+              <button type="submit" class="btn btn-lg btn-primary mx-2">Decrypt</button>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="mb-3">
-        <button type="submit" class="btn btn-primary" formaction="/api/encrypt">Encrypt</button>
-      </div>
+    </main>
   </body>
 </html>
