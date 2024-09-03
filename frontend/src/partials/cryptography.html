@@ -1,0 +1,32 @@
+<section
+  class="container-sm mt-4 bg-gradient rounded mx-auto px-md-4 py-md-3 py-2 px-2"
+  id="encryption"
+>
+  <h2 class="my-4">Save File Encryption</h2>
+  <form action="/api/decrypt" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+      <label for="file" class="form-label fs-4">Your save</label>
+      <input
+        class="form-control form-control-lg"
+        name="file"
+        type="file"
+        value=""
+        id="file"
+        required
+      />
+    </div>
+
+    <div class="d-flex flex-md-row flex-column justify-content-center mt-2">
+      <button
+        type="submit"
+        class="btn btn-lg btn-secondary order-md-0 order-1"
+        formaction="/api/encrypt"
+      >
+        Encrypt
+      </button>
+      <button type="submit" class="btn btn-lg btn-primary my-2 mx-0 my-md-0 mx-md-2">
+        Decrypt
+      </button>
+    </div>
+  </form>
+</section>

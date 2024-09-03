@@ -1,0 +1,114 @@
+<section class="container-sm mt-4 mx-auto px-2 py-2" id="faq">
+  <h1 class="my-4 text-center">FAQ</h1>
+
+  <div class="row">
+    <div class="col-md-6 col-lg-4 mb-4">
+      <h4 class="mb-3 text-info">What is this?</h4>
+      <p>This is a web-based tool to encrypt and decrypt your Axiom Verge save file.</p>
+    </div>
+    <div class="col-md-6 col-lg-4 mb-4">
+      <h4 class="mb-3 text-info">When would I use this?</h4>
+      <p>
+        This tool is helpful for detecting and repairing corrupted save files, editing your
+        progress, or just for curiosity.
+      </p>
+      <p>
+        <strong>Only save files from the Steam version are encrypted.</strong>
+        The Epic games edition stores save files in plaintext.
+      </p>
+    </div>
+    <div class="col-md-6 col-lg-4 mb-4">
+      <h4 class="mb-3 text-info">Which save file is which?</h4>
+      <p>
+        There are a total of 5 save files that Axiom Verge can create. These files are all named
+        <code>SaveX.sav</code>, where <code>X</code> is a number between <code>0</code> and
+        <code>4</code> inclusive.
+      </p>
+
+      <p>
+        Save files <strong>0, 1, and 2</strong> are your <strong>story mode</strong> save files.
+      </p>
+      <p>
+        Save file <strong>3</strong> is your <strong>speedrun mode</strong> save, and
+        <strong>4</strong> is your <strong>randomizer</strong> save.
+      </p>
+    </div>
+  </div>
+
+  <h4 class="my-4 text-info">Where is my save file located?</h4>
+  <div class="accordion" id="platformAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button
+          class="accordion-button"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseOne"
+          aria-expanded="true"
+          aria-controls="collapseOne"
+        >
+          Windows
+        </button>
+      </h2>
+      <div
+        id="collapseOne"
+        class="accordion-collapse collapse show"
+        data-bs-parent="#platformAccordion"
+      >
+        <div class="accordion-body">
+          Unless you specified differently in Steam's options, your save files can be found in
+          <code>C:/Program Files(x86)/Steam/userdata/[Steam Account ID]/332200/remote</code>.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseTwo"
+          aria-expanded="false"
+          aria-controls="collapseTwo"
+        >
+          Linux
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#platformAccordion">
+        <div class="accordion-body">
+          <code>~/.steam/steam/userdata/[Steam Account ID]/332200</code>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseThree"
+          aria-expanded="false"
+          aria-controls="collapseThree"
+        >
+          MacOS
+        </button>
+      </h2>
+      <div
+        id="collapseThree"
+        class="accordion-collapse collapse"
+        data-bs-parent="#platformAccordion"
+      >
+        <div class="accordion-body">
+          <code>
+            ~/Library/Application Support/[DeveloperGameName (which will probably be
+            AxiomVerge?)]/SaveGames
+          </code>
+          <p class="fw-light text-end">
+            (have a correction to this information?
+            <a href="https://github.com/aricodes-oss/avsg-web/issues">submit an issue on github</a>)
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
