@@ -1,5 +1,5 @@
 ## Frontend build
-FROM oven/bun:latest as frontend
+FROM oven/bun:latest AS frontend
 
 WORKDIR /code
 COPY frontend .
@@ -9,7 +9,7 @@ RUN bun run build
 
 
 ## Backend build
-FROM golang:latest as backend
+FROM golang:latest AS backend
 
 WORKDIR /code
 
