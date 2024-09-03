@@ -6,7 +6,7 @@ import handlebars from 'vite-plugin-handlebars';
 export default defineConfig({
   root: path.resolve(__dirname, 'src'),
   build: {
-    outDir: '../../dist',
+    outDir: '../../embeds/dist',
     emptyOutDir: true,
   },
   server: {

@@ -1,6 +1,10 @@
 package web
 
 import (
+	"avsg/embeds"
+	"os"
+
+	"github.com/gin-contrib/static"
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/viper"
 
@@ -22,6 +26,13 @@ func NewRouter() *gin.Engine {
 }
 
 func mountFrontend(router *gin.Engine) {
+	// In prod, serve the frontend assets directly
+	if os.Getenv("GIN_MODE") == "release" {
+		router.Use(static.Serve("/", static.EmbedFolder(embeds.Frontend, "dist")))
+		return
+	}
+
+	// In dev, proxy to our development server
 	frontendUrl, _ := url.Parse(viper.GetString("frontendUrl"))
 	proxy := httputil.NewSingleHostReverseProxy(frontendUrl)
 

@@ -46,7 +46,7 @@ In the root of the repository, run `gowatch`. In the `frontend` directory, run `
 
 1. Go to the frontend folder and run `bun run build` to create the frontend bundle
 2. In the root of the repository, run `go build` to create the application executable
-3. Deploy the `avsg` binary wherever you please!
+3. Deploy the `avsg` binary wherever you please! Remember to set `GIN_MODE=release` in the environment to use the included frontend assets.
 
 When building natively the frontend assets are embedded into the application binary and do not need to be shipped separately.
 
